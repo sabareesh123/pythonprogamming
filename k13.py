@@ -1,8 +1,8 @@
-z=int(input())
+a=int(input())
 i=2
 k=1
-while(i<z):
-	if(z%i==0):
+while(i<a):
+	if(a%i==0):
 		k=0
 		break
 	else:
