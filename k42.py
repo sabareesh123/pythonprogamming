@@ -1,5 +1,5 @@
-gu1,gut2=map(str,input().split())
-if len(input1)>len(input2):
-  print(gu1)
+input11,input22=map(str,input().split())
+if len(input11)>len(input22):
+  print(input11)
 else:
-  print(gu2) 
+  print(input22) 
