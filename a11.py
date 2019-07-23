@@ -1,11 +1,3 @@
-import math
-try:
-	N=int (input())
-	for j in range(N):
-	    p=math.factorial(2*j)
-	    q=math.factorial(j+1)
-	    r=math.factorial(j)
-	    s=p//(q*r)
-	    print(s,end=" ")
-except ValueError:
-	print("invalid")
+m=input()
+list=['Saturday','Sunday']
+print("yes" if m in list else "no")
